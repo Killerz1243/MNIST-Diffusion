@@ -1,22 +1,8 @@
 # MNIST Diffusion
----
-
-## 📚 Table of Contents
-
-- [Overview](#overview)
-- [Diffusion Process](#diffusion-process)
-  - [Forward](#forward-diffusion-process)
-  - [Backward](#backward-diffusion-process)
-- [Setup Instructions](#setup-instructions)
-- [How It Works](#how-it-works)
-
----
 
 ## 💡 Overview
 
 This repository contains a simple implementation of a diffusion model on the MNIST dataset using Pytorch. It includes both the forward and reverse diffusion processes and visualizations to help understand how these models work.
-
----
 
 ## 🌀 Diffusion Process
 
@@ -25,8 +11,6 @@ Below are visualizations of the forward and backward diffusion steps:
 | Forward Diffusion Process                        | Backward Diffusion Process                          |
 | :----------------------------------------------: | :-------------------------------------------------: |
 | ![Forward Diffusion process](images/forward.png) | ![Backwards Diffusion process](images/backward.png) |
-
----
 
 ## ⚙️ Setup Instructions
 
@@ -54,8 +38,6 @@ To run the code for yourself:
     jupyter notebook
     ```
 
----
-
 ## 🔍 How It Works
 This project implements the denoising diffusion probabilistic model (DDPM) using a Denoising UNet on MNIST.
 
@@ -64,8 +46,6 @@ This project implements the denoising diffusion probabilistic model (DDPM) using
 - The backward process (learned by a neural network) reverses this noise, generating realistic images from pure noise.
 
 This is inspired by the work of Ho et al. in their [DDPM paper](https://arxiv.org/abs/2006.11239).
-
---- 
 
 ## ❤️ Aknowledgements
 Hung-yi Lee the goat for his simple to understand [playlist](https://www.youtube.com/playlist?list=PLJV_el3uVTsNi7PgekEUFsyVllAJXRsP-) on explaining the math behind Diffusion models.
